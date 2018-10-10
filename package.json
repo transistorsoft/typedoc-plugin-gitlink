@@ -1,0 +1,31 @@
+{
+  "author": "Chris Scott, Transistor Software<info@transistorsoft.com>",
+  "name": "typedoc-plugin-gitlink",
+  "version": "0.0.1",
+  "description": "typedoc plugin to link to Github repo",
+  "homepage": "https://github.com/transistorsoft/typedoc-plugin-gitlink",
+  "bugs": "https://github.com/transistorsoft/typedoc-plugin-gitlink/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/transistorsoft/typedoc-plugin-gitlink.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "typedocplugin",
+    "typedoc",
+    "bitbucket",
+    "gitlab"
+  ],
+  "peerDependencies": {
+    "typedoc": "^0.12.0"
+  },
+  "devDependencies": {
+    "typedoc": "^0.12.0",
+    "typescript": "^3.1.1"
+  },
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  }
+}
