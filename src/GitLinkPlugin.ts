@@ -47,8 +47,14 @@ export class GitLinkPlugin extends ConverterComponent {
                     reflection.comment.shortText = reflection.comment.shortText.replace(this.re, replacement);
                 }
                 if (this.re.test(reflection.comment.text)) {
-                    //let m = reflection.comment.text.match(this.re);
                     reflection.comment.text = reflection.comment.text.replace(this.re, replacement);
+                }
+                if (reflection.comment.tags) {
+                    reflection.comment.tags.forEach(tag => {
+                        if (this.re.test(tag.text)) {
+                            tag.text = tag.text.replace(this.re, replacement);
+                        }
+                    });
                 }
             }
         }
