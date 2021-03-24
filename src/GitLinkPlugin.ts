@@ -1,7 +1,7 @@
+import * as ts from 'typescript';
 import * as Path from 'path'
 import * as FS from 'fs-extra'
-import {Component} from 'typedoc/dist/lib/utils/component'
-import {ConverterComponent} from 'typedoc/dist/lib/converter/components'
+import { Component, ConverterComponent } from 'typedoc/dist/lib/converter/components';
 import {Converter} from 'typedoc/dist/lib/converter/converter'
 import {Context} from 'typedoc/dist/lib/converter/context'
 import {SourceReference} from 'typedoc/dist/lib/models/sources/file'
