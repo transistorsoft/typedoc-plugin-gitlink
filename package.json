@@ -16,9 +16,6 @@
     "bitbucket",
     "gitlab"
   ],
-  "peerDependencies": {
-    "typedoc": "^0.20.33"
-  },
   "devDependencies": {
     "@types/fs-extra": "^9.0.8",
     "@types/node": "^14.14.35",
