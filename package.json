@@ -1,6 +1,6 @@
 {
   "author": "Chris Scott, Transistor Software<info@transistorsoft.com>",
-  "name": "typedoc-plugin-gitlink",
+  "name": "@transistorsoft/typedoc-plugin-gitlink",
   "version": "0.2.1",
   "description": "typedoc plugin to link to Github repo from docs.",
   "homepage": "https://github.com/transistorsoft/typedoc-plugin-gitlink",
